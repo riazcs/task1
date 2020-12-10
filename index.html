@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Page Description">
+        <meta name="author" content="Afolabi mayowa">
+       
+
+        <!-- Bootstrap -->
+        <link href="css/main.css" rel="stylesheet">
+		   <link href="css/bootstrap.min.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <title class="justify-content-center pl-4">Round 1: Task 1</title>
+    </head>
+    <body>
+      
+    <div class="container">
+      <h1>Round 1: Task 1</h1>
+        	<div class="form-group">
+            <input type="text" name="name" placeholder="Name" id="input-name" required>
+            <input type="email" name="email" placeholder="Email" id="input-email" required>
+            <input type="url" name="homepage" placeholder="Homepage" id="input-homepage" required>
+            <button type="submit" id="addButton" class="btn btn-sm btn-primary">Save</button>
+        	</div>
+                <!-- <button id="addButton" class="btn btn-primary">Add To List</button>
+                <button id="clearButton" class="btn btn-danger">Clear Todo List</button> -->
+        <ul id="todoList" class="mx-2"></ul>
+
+        <!-- <template id="contact-template">
+        <div class="contact">
+          <ul id="todoList"></ul>
+        <h2>Name</h2>
+        <p class="email">email@example.com</p>
+        <p class="homepage"><a href="#">Homepage URL</a></p>
+      </div>
+         </template> -->
+    </div>
+
+    <script type="text/javascript" src="template.js"></script>
+    <!-- <script>
+      function newElement() {
+  var tr = document.createElement("tr");
+  var name = document.getElementById("input-name").value;
+  var email = document.getElementById("input-email").value;
+  var url = document.getElementById("input-homepage").value;
+  var n = document.createTextNode(name);
+  var e = document.createTextNode(email);
+  var u = document.createTextNode(url);
+  tr.appendChild(n);
+  tr.appendChild(e);
+  tr.appendChild(u);
+  if (name === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("todoList").appendChild(tr);
+  }
+  document.getElementById("input-name").value = "";
+
+  // var span = document.createElement("SPAN");
+  // var txt = document.createTextNode("\u00D7");
+  // span.className = "close";
+  // span.appendChild(txt);
+  // li.appendChild(span);
+
+  // for (i = 0; i < close.length; i++) {
+  //   close[i].onclick = function() {
+  //     var div = this.parentElement;
+  //     div.style.display = "none";
+  //   }
+  // }
+}
+    </script> -->
+
+  </body>
+</html>
